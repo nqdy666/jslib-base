@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/config: init');
+    console.log('@nq-js-lib/config: init');
 
     util.copyTmpl(
         path.resolve(__dirname, `./template/jslib.json.tmpl`),
@@ -12,7 +12,7 @@ function init(cmdPath, name, option) {
 }
 
 function update() {
-    console.log('@js-lib/config: update');
+    console.log('@nq-js-lib/config: update');
 }
 
 module.exports = {

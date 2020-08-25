@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/demo: init');
+    console.log('@nq-js-lib/demo: init');
     const lang = option.lang;
     util.copyFile(path.resolve(__dirname, `./template/require.js`), path.resolve(cmdPath, name, 'demo/js/require.js'));
     util.copyFile(path.resolve(__dirname, `./template/demo-amd.html`), path.resolve(cmdPath, name, 'demo/demo-amd.html'));
@@ -15,7 +15,7 @@ function init(cmdPath, name, option) {
 }
 
 function update(cmdPath, option) {
-    console.log('@js-lib/demo: update');
+    console.log('@nq-js-lib/demo: update');
 }
 
 module.exports = {

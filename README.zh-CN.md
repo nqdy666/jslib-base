@@ -1,9 +1,9 @@
-# [jslib-base](https://github.com/yanhaijing/jslib-base)
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/jslib-base/blob/master/LICENSE)
-[![npm](https://img.shields.io/badge/npm-1.6.0-orange.svg)](https://www.npmjs.com/package/@js-lib/cli)
-[![NPM downloads](http://img.shields.io/npm/dm/@js-lib/cli.svg?style=flat-square)](http://www.npmtrends.com/@js-lib/cli)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/yanhaijing/jslib-base.svg)](http://isitmaintained.com/project/yanhaijing/jslib-base "Percentage of issues still open")
+# [jslib-base](https://github.com/nqdy666/jslib-base)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/nqdy666/jslib-base)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nqdy666/jslib-base/blob/master/LICENSE)
+[![npm](https://img.shields.io/badge/npm-1.6.0-orange.svg)](https://www.npmjs.com/package/@nq-js-lib/cli)
+[![NPM downloads](http://img.shields.io/npm/dm/@nq-js-lib/cli.svg?style=flat-square)](http://www.npmtrends.com/@nq-js-lib/cli)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/nqdy666/jslib-base.svg)](http://isitmaintained.com/project/nqdy666/jslib-base "Percentage of issues still open")
 
 [English](./README.md) | 简体中文
 
@@ -29,19 +29,19 @@
 通过npm下载安装jslib（node >= 6.0）
 
 ```bash
-$ npm i -g @js-lib/cli
+$ npm i -g @nq-js-lib/cli
 ```
 
 也可不安装全局命令，通过npx直接使用
 
 ```bash
-$ npx @js-lib/cli new
+$ npx @nq-js-lib/cli new
 ```
 
 新建一个项目
 
 ```bash
-$ jslib new mylib
+$ nqjslib new mylib
 # 交互式询问，输入项目信息
 $ cd mylib
 $ npm i
@@ -50,13 +50,13 @@ $ npm i
 更新项目，只需在项目根目录执行如下命令
 
 ```bash
-$ jslib update
+$ nqjslib update
 ```
 
 对于旧项目，不能直接执行update命令，可以先初始化一个配置文件
 
 ```bash
-$ jslib new -c
+$ nqjslib new -c
 ```
 
 目录简介
@@ -95,8 +95,8 @@ lerna常用命令
 
 ```bash
 $ lerna init # 初始化
-$ lerna create @js-lib/todo # 创建一个package
-$ lerna add yargs --scope=@js-lib/cli # 给package安装依赖
+$ lerna create @nq-js-lib/todo # 创建一个package
+$ lerna add yargs --scope=@nq-js-lib/cli # 给package安装依赖
 $ lerna list # 列出所有的包
 $ lerna bootstrap # 安装全部依赖
 $ lerna link # 建立全部软连接
@@ -106,7 +106,7 @@ $ lerna publish # 会打tag，上传git,上传npm
 
 ## 贡献者列表
 
-[contributors](https://github.com/yanhaijing/jslib-base/graphs/contributors)
+[contributors](https://github.com/nqdy666/jslib-base/graphs/contributors)
 
 ## :gear: 更新日志
 [CHANGELOG.md](./CHANGELOG.md)
@@ -117,8 +117,8 @@ $ lerna publish # 会打tag，上传git,上传npm
 ## :bulb: 谁在使用
 
 - [jsmini](https://github.com/jsmini)
-- [template.js](https://github.com/yanhaijing/template.js)
-- [...](https://github.com/yanhaijing/jslib-base/issues/10)
+- [template.js](https://github.com/nqdy666/template.js)
+- [...](https://github.com/nqdy666/jslib-base/issues/10)
 
 ## 参考文档
 - [Lerna 中文教程详解](https://juejin.im/post/5ced1609e51d455d850d3a6c)

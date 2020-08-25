@@ -1,9 +1,9 @@
 {
-  "name": "@js-lib/util",
+  "name": "@nq-js-lib/util",
   "version": "1.6.0",
   "description": "The best third party JS|TS library scaffold",
-  "author": "yanhaijing <yanhaijing@yeah.net>",
-  "homepage": "https://github.com/yanhaijing/jslib-base/tree/master#readme",
+  "author": "nqdy666 <nianqin.vip@gmail.com>",
+  "homepage": "https://github.com/nqdy666/jslib-base/tree/master#readme",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
@@ -16,13 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanhaijing/jslib-base.git"
+    "url": "git+https://github.com/nqdy666/jslib-base.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/yanhaijing/jslib-base/issues"
+    "url": "https://github.com/nqdy666/jslib-base/issues"
   },
   "dependencies": {
     "@jsmini/extend": "^0.3.1",

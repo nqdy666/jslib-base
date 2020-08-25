@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/rollup: init');
+    console.log('@nq-js-lib/rollup: init');
     const type = option.type;
 
     const module = option.module = option.module.reduce((prev, name) => (prev[name] = name, prev), ({}));
@@ -52,7 +52,7 @@ function init(cmdPath, name, option) {
 }
 
 function update(cmdPath, option) {
-    console.log('@js-lib/rollup: update');
+    console.log('@nq-js-lib/rollup: update');
 
     const type = option.type;
     const module = option.module = option.module.reduce((prev, name) => (prev[name] = name, prev), ({}));

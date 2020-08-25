@@ -1,9 +1,9 @@
-# [jslib-base](https://github.com/yanhaijing/jslib-base)
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/jslib-base/blob/master/LICENSE)
-[![npm](https://img.shields.io/badge/npm-1.6.0-orange.svg)](https://www.npmjs.com/package/@js-lib/cli)
-[![NPM downloads](http://img.shields.io/npm/dm/@js-lib/cli.svg?style=flat-square)](http://www.npmtrends.com/@js-lib/cli)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/yanhaijing/jslib-base.svg)](http://isitmaintained.com/project/yanhaijing/jslib-base "Percentage of issues still open")
+# [jslib-base](https://github.com/nqdy666/jslib-base)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/nqdy666/jslib-base)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nqdy666/jslib-base/blob/master/LICENSE)
+[![npm](https://img.shields.io/badge/npm-1.6.0-orange.svg)](https://www.npmjs.com/package/@nq-js-lib/cli)
+[![NPM downloads](http://img.shields.io/npm/dm/@nq-js-lib/cli.svg?style=flat-square)](http://www.npmtrends.com/@nq-js-lib/cli)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/nqdy666/jslib-base.svg)](http://isitmaintained.com/project/nqdy666/jslib-base "Percentage of issues still open")
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -13,7 +13,7 @@ The best third party `JS|TS` library scaffold. fast to create the framework for 
 
 ## Characteristics
 
-- `jslib` commander all in one
+- nqjslib` commander all in one
 - Coded in ES6+ or TypeScript, easily compile and generate production code
 - Third parties rely on automatic injection(Tree shaking)
 - Supports multi environment, including default browsers, Node, AMD, CMD, Webpack, Rollup, Fis and so on.
@@ -27,22 +27,22 @@ The best third party `JS|TS` library scaffold. fast to create the framework for 
 
 ## Usage Instructions
 
-Using npm, install global `jslib`(node >= 6.0)
+Using npm, install global nqjslib`(node >= 6.0)
 
 ```bash
-$ npm i -g @js-lib/cli
+$ npm i -g @nq-js-lib/cli
 ```
 
 Or use the npx command to skip the install
 
 ```bash
-$ npx @js-lib/cli new
+$ npx @nq-js-lib/cli new
 ```
 
 create a new lib
 
 ```bash
-$ jslib new mylib
+$ nqjslib new mylib
 # input something
 $ cd mylib
 $ npm i
@@ -51,13 +51,13 @@ $ npm i
 To update the old lib
 
 ```bash
-$ jslib update
+$ nqjslib update
 ```
 
 For older projects, the update command cannot be executed directly. Instead, a configuration file can be initialized first
 
 ```bash
-$ jslib new -c
+$ nqjslib new -c
 ```
 
 Directory
@@ -96,8 +96,8 @@ Some commands of lerna
 
 ```bash
 $ lerna init
-$ lerna create @js-lib/todo
-$ lerna add yargs --scope=@js-lib/cli
+$ lerna create @nq-js-lib/todo
+$ lerna add yargs --scope=@nq-js-lib/cli
 $ lerna list
 $ lerna bootstrap
 $ lerna link
@@ -107,7 +107,7 @@ $ lerna publish
 
 ## Contributors
 
-[contributors](https://github.com/yanhaijing/jslib-base/graphs/contributors)
+[contributors](https://github.com/nqdy666/jslib-base/graphs/contributors)
 
 ## Change Log
 [CHANGELOG.md](./CHANGELOG.md)
@@ -118,8 +118,8 @@ $ lerna publish
 ## Current Users
 
 - [jsmini](https://github.com/jsmini)
-- [template.js](https://github.com/yanhaijing/template.js)
-- [...](https://github.com/yanhaijing/jslib-base/issues/10)
+- [template.js](https://github.com/nqdy666/template.js)
+- [...](https://github.com/nqdy666/jslib-base/issues/10)
 
 ## Relative links
 - [Lerna 中文教程详解](https://juejin.im/post/5ced1609e51d455d850d3a6c)

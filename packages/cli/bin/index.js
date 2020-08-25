@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const yargs = require('yargs');
 
-const { log } = require('@js-lib/util');
+const { log } = require('@nq-js-lib/util');
 
 const { runUpdatePrompts, runInitPrompts } = require('./run-prompts');
 const { checkProjectExists } = require('./helpers');
@@ -14,9 +14,9 @@ const { update } = require('./update');
 log()
 
 yargs
-    .usage('usage: jslib [options]')
-    .usage('usage: jslib <command> [options]')
-    .example('jslib new myproject', '新建一个项目 myproject')
+    .usage('usage: nqjslib [options]')
+    .usage('usage: nqjslib <command> [options]')
+    .example('nqjslib new myproject', '新建一个项目 myproject')
     .alias("h", "help")
     .alias("v", "version")
     .command(['new', 'n'], '新建一个项目', function (yargs) {

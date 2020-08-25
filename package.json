@@ -1,5 +1,5 @@
 {
-  "name": "@js-lib/cli",
+  "name": "@nq-js-lib/cli",
   "version": "1.1.0",
   "description": "The best third party JS|TS library scaffold",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanhaijing/jslib-base.git"
+    "url": "git+https://github.com/nqdy666/jslib-base.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yanhaijing/jslib-base/issues"
+    "url": "https://github.com/nqdy666/jslib-base/issues"
   },
-  "homepage": "https://github.com/yanhaijing/jslib-base#readme",
+  "homepage": "https://github.com/nqdy666/jslib-base#readme",
   "devDependencies": {
     "lerna": "^3.16.4"
   },

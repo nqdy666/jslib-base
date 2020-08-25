@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const ora = require('ora');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/manager: init');
+    console.log('@nq-js-lib/manager: init');
     const manager = option.manager;
 
     if (!manager) {

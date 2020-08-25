@@ -1,5 +1,5 @@
 {
-  "name": "@js-lib/readme",
+  "name": "@nq-js-lib/readme",
   "version": "1.6.0",
   "description": "> README: description",
   "main": "index.js",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanhaijing/jslib-base.git"
+    "url": "git+https://github.com/nqdy666/jslib-base.git"
   },
   "author": "houce <ceweb_job@163.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yanhaijing/jslib-base/issues"
+    "url": "https://github.com/nqdy666/jslib-base/issues"
   },
-  "homepage": "https://github.com/yanhaijing/jslib-base/tree/master#readme",
+  "homepage": "https://github.com/nqdy666/jslib-base/tree/master#readme",
   "dependencies": {
-    "@js-lib/util": "^1.6.0"
+    "@nq-js-lib/util": "^1.6.0"
   }
 }

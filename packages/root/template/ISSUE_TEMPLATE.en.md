@@ -7,7 +7,7 @@ Description of the problem, as detailed as possible.
 - Mobile: MI6
 - System: Android7.1.1
 - Browser：Chrome61
-- jslib version: 0.2.0
+- nqjslib version: 0.2.0
 - some other information
 
 ### Online demo

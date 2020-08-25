@@ -1,10 +1,10 @@
 const path = require('path');
-const {log, copyDir, copyFile, } = require('@js-lib/util');
+const {log, copyDir, copyFile, } = require('@nq-js-lib/util');
 
 log()
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/root: init');
+    console.log('@nq-js-lib/root: init');
     const lang = option.lang;
     
     copyDir(path.resolve(__dirname, `./template/base`), path.resolve(cmdPath, name));
@@ -27,7 +27,7 @@ function init(cmdPath, name, option) {
 }
 
 function update(cmdPath, option) {
-    console.log('@js-lib/root: update');
+    console.log('@nq-js-lib/root: update');
     
     copyFile(
         path.resolve(__dirname, `./template/base/.editorconfig`),

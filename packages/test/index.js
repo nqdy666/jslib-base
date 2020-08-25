@@ -1,11 +1,11 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
     if (!option.test) {
         return;
     }
-    console.log('@js-lib/test: init');
+    console.log('@nq-js-lib/test: init');
     const type = option.type;
 
     util.copyFile(
@@ -31,7 +31,7 @@ function update(cmdPath, option) {
     if (!option.test) {
         return;
     }
-    console.log('@js-lib/test: update');
+    console.log('@nq-js-lib/test: update');
 
     const type = option.type;
 

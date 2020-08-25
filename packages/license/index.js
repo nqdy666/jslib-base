@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/license: init');
+    console.log('@nq-js-lib/license: init');
 
     util.copyTmpl(
         path.resolve(__dirname, `./template/license.tmpl`),
@@ -12,7 +12,7 @@ function init(cmdPath, name, option) {
 }
 
 function update() {
-    console.log('@js-lib/license: update');
+    console.log('@nq-js-lib/license: update');
 }
 
 module.exports = {

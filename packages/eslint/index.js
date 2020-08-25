@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/eslint: init');
+    console.log('@nq-js-lib/eslint: init');
     const type = option.type;
     util.copyFile(
         path.resolve(__dirname, `./template/.eslintrc.${type}.js`),
@@ -15,7 +15,7 @@ function init(cmdPath, name, option) {
 }
 
 function update(cmdPath, option) {
-    console.log('@js-lib/eslint: update');
+    console.log('@nq-js-lib/eslint: update');
 
     const type = option.type;
     util.copyFile(

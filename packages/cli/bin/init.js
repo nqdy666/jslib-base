@@ -1,4 +1,4 @@
-const config = require('@js-lib/config');
+const config = require('@nq-js-lib/config');
 const cli = require('../index.js');
 const pkg = require('../package.json');
 const { checkProjectExists } = require('./helpers');
@@ -26,7 +26,7 @@ function init(argv, answers) {
 
     // 运行命令
     if (!pathname) {
-        console.error('error: jslib create need name');
+        console.error('error: nqjslib create need name');
         return;
     }
     

@@ -43,8 +43,8 @@
 ## 1.0.0 / 2019-10-1
 
 - 架构调整，由base改为cli工具
-- 支持`jslib new`命令
-- 支持`jslib update`命令
+- 支持nqjslib new`命令
+- 支持nqjslib update`命令
 
 ## 0.6.0 / 2019-6-16
 

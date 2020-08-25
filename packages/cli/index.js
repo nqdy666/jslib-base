@@ -4,17 +4,17 @@ const ora = require('ora');
 const spinner = ora();
 const pkg = require('./package.json');
 
-const config = require('@js-lib/config');
-const root = require('@js-lib/root');
-const eslint = require('@js-lib/eslint');
-const license = require('@js-lib/license');
-const package = require('@js-lib/package');
-const readme = require('@js-lib/readme');
-const src = require('@js-lib/src');
-const demo = require('@js-lib/demo');
-const rollup = require('@js-lib/rollup');
-const test = require('@js-lib/test');
-const manager = require('@js-lib/manager');
+const config = require('@nq-js-lib/config');
+const root = require('@nq-js-lib/root');
+const eslint = require('@nq-js-lib/eslint');
+const license = require('@nq-js-lib/license');
+const package = require('@nq-js-lib/package');
+const readme = require('@nq-js-lib/readme');
+const src = require('@nq-js-lib/src');
+const demo = require('@nq-js-lib/demo');
+const rollup = require('@nq-js-lib/rollup');
+const test = require('@nq-js-lib/test');
+const manager = require('@nq-js-lib/manager');
 
 function init(cmdPath, option) {
     option.version = pkg.version;

@@ -1,8 +1,8 @@
 const path = require('path');
-const util = require('@js-lib/util');
+const util = require('@nq-js-lib/util');
 
 function init(cmdPath, name, option) {
-    console.log('@js-lib/package: init');
+    console.log('@nq-js-lib/package: init');
     util.copyTmpl(
         path.resolve(__dirname, `./template/package.json.tmpl`),
         path.resolve(cmdPath, name, 'package.json'),
@@ -11,7 +11,7 @@ function init(cmdPath, name, option) {
 }
 
 function update(cmdPath, option) {
-    console.log('@js-lib/package: update');
+    console.log('@nq-js-lib/package: update');
     const {
         scripts, sideEffects, devDependencies, dependencies, files, engines,
     } = JSON.parse(util.readTmpl(path.resolve(__dirname, `./template/package.json.tmpl`), option));
