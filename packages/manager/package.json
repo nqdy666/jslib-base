@@ -18,7 +18,7 @@
     "url": "git+https://github.com/nqdy666/jslib-base.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from package\""
   },
   "bugs": {
     "url": "https://github.com/nqdy666/jslib-base/issues"

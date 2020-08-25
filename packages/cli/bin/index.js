@@ -70,7 +70,7 @@ yargs
         });
     })
     .demandCommand()
-    .epilog('copyright 2018-2019')
+    .epilog('copyright 2020-2021')
     .argv;
 
 
