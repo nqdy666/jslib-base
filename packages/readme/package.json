@@ -4,7 +4,7 @@
   "description": "> README: description",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://registry.npmjs.com",
+    "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "files": [
@@ -27,5 +27,5 @@
   "dependencies": {
     "@nq-js-lib/util": "^2.0.5"
   },
-  "gitHead": "f3fd965296987a7ba8a1151e60f8bd88259d2e25"
+  "gitHead": "31814c35d8af4122a7f96844fbaa89cdb8fa5d0d"
 }

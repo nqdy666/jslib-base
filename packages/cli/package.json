@@ -17,7 +17,7 @@
     "node": ">= 8.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com",
+    "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "repository": {
@@ -48,5 +48,5 @@
     "validate-npm-package-name": "^3.0.0",
     "yargs": "^14.0.0"
   },
-  "gitHead": "f3fd965296987a7ba8a1151e60f8bd88259d2e25"
+  "gitHead": "31814c35d8af4122a7f96844fbaa89cdb8fa5d0d"
 }
