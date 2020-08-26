@@ -1,6 +1,6 @@
 {
   "name": "@nq-js-lib/manager",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "The best third party JS|TS library scaffold",
   "author": "nqdy666 <nianqin.vip@gmail.com>",
   "homepage": "https://github.com/nqdy666/jslib-base/tree/master#readme",
@@ -27,5 +27,5 @@
     "chalk": "^2.4.2",
     "ora": "^3.4.0"
   },
-  "gitHead": "31814c35d8af4122a7f96844fbaa89cdb8fa5d0d"
+  "gitHead": "6194da00862d340f6c9e0f7999610387375e8e02"
 }
