@@ -1,6 +1,6 @@
 {
   "name": "@nq-js-lib/readme",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "> README: description",
   "main": "index.js",
   "publishConfig": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/nqdy666/jslib-base/tree/master#readme",
   "dependencies": {
-    "@nq-js-lib/util": "^2.0.2"
+    "@nq-js-lib/util": "^2.0.3"
   }
 }
