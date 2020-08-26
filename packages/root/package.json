@@ -1,6 +1,6 @@
 {
   "name": "@nq-js-lib/root",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The best third party JS|TS library scaffold",
   "author": "nqdy666 <nianqin.vip@gmail.com>",
   "homepage": "https://github.com/nqdy666/jslib-base/tree/master#readme",
@@ -25,6 +25,6 @@
     "url": "https://github.com/nqdy666/jslib-base/issues"
   },
   "dependencies": {
-    "@nq-js-lib/util": "^2.0.1"
+    "@nq-js-lib/util": "^2.0.2"
   }
 }
